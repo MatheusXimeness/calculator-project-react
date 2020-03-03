@@ -14,10 +14,12 @@
     outline: none;
 }
 
+/* da uma sombra quando o click acontece */
 .button:active {
     background-color: #ccc;
 }
 
+/* ====== Ocupação dos quadrados de cada botão ====== */
 .button.double {
     grid-column: span 2;
 }
@@ -25,6 +27,7 @@
 .button.triple {
     grid-column: span 3;
 }
+/* ============================= */
 
 .button.operation {
     background-color: #fa8231;
